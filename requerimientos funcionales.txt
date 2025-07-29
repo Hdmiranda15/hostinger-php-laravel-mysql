@@ -1,0 +1,45 @@
+﻿
+📋 30 Requerimientos Funcionales Esenciales para Web Personal con Blog - Laravel 8.2
+
+🧩 1. Requerimientos Generales del Sitio (1–2)
+El sitio debe tener una página de inicio que muestre una introducción profesional del usuario
+Debe incluir menú de navegación principal: Inicio, Sobre mí, Servicios, Portafolio, Blog y Contacto
+
+👤 2. Requerimientos de "Sobre Mí" (3–3)
+Debe mostrar foto profesional del usuario con opción de actualización desde admin
+
+🛠️ 3. Requerimientos de "Servicios" (4–4)
+Debe mostrar lista de servicios con íconos, títulos y descripciones cortas
+
+📁 4. Requerimientos de "Portafolio" (5–10)
+Debe mostrar proyectos en cuadrícula responsive con imágenes destacadas
+Cada proyecto debe tener título, descripción corta, categoría y fecha de realización
+Al hacer clic, se debe abrir modal o página con detalles completos del proyecto
+Debe permitir inclusión de tecnologías utilizadas con logos identificativos
+Se debe poder visualizar galería de imágenes del proyecto en lightbox
+Debe permitir enlaces externos a demos, repositorios o sitios en producción
+
+
+📝 5. Requerimientos del BLOG - Especializados Laravel (11–25)
+El sistema debe permitir creación de entradas con título, contenido y resumen automático
+La fecha y hora de publicación debe generarse automáticamente del servidor sin intervención manual
+El autor debe asignarse automáticamente del usuario autenticado que crea la entrada
+Debe permitir carga de imagen destacada única con validación automática de formato
+Debe permitir inclusión de múltiples imágenes adicionales dentro del contenido del blog
+El resumen debe limitarse automáticamente a 40 líneas de texto (aprox. 1000 caracteres)
+Debe permitir inclusión de gráficos como imágenes dentro del contenido del post
+Debe permitir inclusión de videos en formato .mp4 con reproductor integrado
+Debe permitir inclusión de enlaces externos con validación de seguridad
+Cada entrada debe poder asociarse a múltiples categorías (máximo 5 por entrada)
+Cada entrada debe poder asociarse a múltiples etiquetas (ilimitadas)
+Debe permitir búsqueda avanzada por palabra clave en todo el contenido del blog
+Debe mostrar entradas recientes automáticamente en barra lateral (máximo 5)
+Debe mostrar entradas populares basadas en visitas automáticas (máximo 5)
+Debe permitir sistema de comentarios con moderación desde panel administrativo
+
+⚙️ 6. Requerimientos Técnicos Laravel + Funcionalidades Avanzadas (26–30)
+El sistema debe utilizar autenticación de Laravel para gestión de autores y administradores
+Debe implementar Laravel Storage para manejo seguro de imágenes, videos y archivos multimedia
+El sistema debe usar Jobs de Laravel para procesamiento en segundo plano de imágenes
+Debe implementar sistema de cache de Laravel para optimizar carga de contenido popular
+El sistema debe usar sistema de rutas amigables con slugs automáticos y SEO optimizado
